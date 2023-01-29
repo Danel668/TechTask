@@ -1,0 +1,25 @@
+﻿@model UserViewModel
+
+
+
+
+
+
+<div class="mx-lg-4">
+    <form class="sign-in-form" asp-controller="Home" asp-action="Login" method="post">
+<div>
+    <label for="UserName">Username</label>
+    <input asp-for="UserName"/>
+</div>
+<div>
+    <label for="Password">Password</label>
+    <input asp-for="Password"/>
+</div>
+<div>
+    <input type="submit" value="Sign In"/>
+</div>
+</form>
+</div>
+
+
+
